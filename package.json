@@ -1,0 +1,24 @@
+{
+  "name": "huevo-dev",
+  "version": "1.0.0",
+  "description": "Великолепный блог",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fake-code/huevo-dev.git"
+  },
+  "author": "i7d3v3l0p3r@yandex.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fake-code/huevo-dev/issues"
+  },
+  "homepage": "https://github.com/fake-code/huevo-dev#readme",
+  "dependencies": {
+    "eleventy": "^1.0.6"
+  }
+}

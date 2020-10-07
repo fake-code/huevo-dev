@@ -1,0 +1,31 @@
+---
+title: Великолепный блог
+permalink: /blog/{{ page.filePathStem }}.html
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/chota.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/xui.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/huevo.css" rel="stylesheet" type="text/css" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a class="title" href="/">
+            <h2><span class="xui-letter">&#x0041;</span>вый блог</h2>
+          </a>
+        </div>
+      </nav>
+      <main>
+        <h2>{{ title }}</h2>
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
+</html>
