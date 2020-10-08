@@ -15,9 +15,9 @@ jobs:
       - name: Install and Build
         run: |
           npm ci
-          npm run build
+          npm run build:github
 
-      - name: Deploy 🚀
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -7,16 +7,16 @@ title: Великолепный блог
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/css/chota.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/xui.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/huevo.css" rel="stylesheet" type="text/css" />
+    <link href="{{ '/assets/css/chota.css' | url }}" rel="stylesheet" type="text/css" />
+    <link href="{{ '/assets/css/xui.css' | url }}" rel="stylesheet" type="text/css" />
+    <link href="{{ '/assets/css/huevo.css' | url }}" rel="stylesheet" type="text/css" />
     <title>{{ title }}</title>
   </head>
   <body>
     <div class="container">
       <nav class="nav">
         <div class="nav-left">
-          <a class="title" href="/">
+          <a class="title" href="{{ '/' | url }}">
             <h2><span class="xui-letter">&#x0041;</span>вый блог</h2>
           </a>
         </div>
