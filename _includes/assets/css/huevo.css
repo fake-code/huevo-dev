@@ -1,3 +1,29 @@
 .container {
     max-width: 940px;
 }
+
+.postlist {}
+.postlist__item {
+    height: 150px;
+}
+.postlist__thumb {
+    height: 150px;
+    float: left;
+    position: relative;
+    top: -1rem;
+    left: -2rem;
+    border-right: 1px solid #ddd;
+}
+.postlist__preview {
+    display: inline-block;
+}
+.postlist__title {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.postlist__date {
+    font-size: 1.5rem;
+}
+.postlist__excerpt {
+    padding: 0.2rem 0;
+}

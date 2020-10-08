@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/fake-code/huevo-dev#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "dayjs": "^1.9.1",
+    "striptags": "^3.1.1"
   }
 }

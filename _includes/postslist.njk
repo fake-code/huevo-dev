@@ -1,9 +1,16 @@
-<ul>
-    {%- for post in postslist -%}
-    <li>
-        <strong>
+<div class="postlist">
+  {%- for post in postslist -%}
+    <div class="card postlist__item">
+      <img class="postlist__thumb hide-xs" src="{{ post.data.thumb | url }}" title="Да, я зашакален. И что ты мне сделаешь?" />
+      <div class="postlist__preview">
+        <h4 class="postlist__title">
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        </strong>
-      </li>
-    {%- endfor -%}
-</ul>
+        </h4>
+        <time class="postlist__date text-grey text-capitalize">{% readableDate post %}</time>
+        <p class="postlist__excerpt">
+          {% excerpt post %}
+        </p>
+      </div>
+    </div>
+  {%- endfor -%}
+</div>

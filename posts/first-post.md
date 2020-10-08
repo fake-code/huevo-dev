@@ -1,5 +1,5 @@
 ---
 title: Пишем хуевый блог
-slug: write-govno
+date: 2020-10-09
 ---
 asdasdas
