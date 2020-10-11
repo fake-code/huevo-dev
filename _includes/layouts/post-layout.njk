@@ -16,16 +16,10 @@ thumb: /assets/img/empty-thumb.jpg
   </head>
   <body>
     <div class="container">
-      <nav class="nav">
-        <div class="nav-left">
-          <a class="title" href="{{ '/' | url }}">
-            <h2><span class="xui-letter">&#x0041;</span>вый блог</h2>
-          </a>
-        </div>
-      </nav>
+     {% include "navbar.njk" %}
       <main>
         <h2>{{ title }}</h2>
-        {{ content | safe }}
+        {{ content | getContentWithoutExcerpt | safe }}
       </main>
     </div>
   </body>

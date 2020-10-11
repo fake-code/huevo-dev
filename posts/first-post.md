@@ -1,5 +1,10 @@
 ---
-title: Пишем хуевый блог
+title: Пишем великолепный блог
 date: 2020-10-09
 ---
-asdasdas
+
+<!-- excerpt -->
+asdasdasaaaaaaaaaaaaaaa
+<!-- excerpt -->
+
+asdas

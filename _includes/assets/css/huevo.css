@@ -2,6 +2,16 @@
     max-width: 940px;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 0.3rem;
+}
+
+.nav-left {
+    align-items: center;
+}
+
 .postlist {}
 .postlist__item {
     height: 150px;
